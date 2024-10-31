@@ -19,6 +19,10 @@ h1 {
     margin: 0.5em;
 }
 
+h2 {
+    font-size: 1.8em;
+}
+
 button {
     background-color: #f04c2f;
     font-family: 'Montserrat', sans-serif;
@@ -39,18 +43,18 @@ header {
 
 /*---- Section Course -----------------------------------------------*/
 #sect-course {
-    background-image: url('../images/banner.jpg');
+    background-image: url('../img/banner.jpg');
     background-size: cover;
 
     padding: 2em 2em 1.5em;
 }
 
-#course p {
+#sect-course p {
     font-size: 1.1em;
     margin: 0.5em;
 }
 
-#course button {
+#sect-course button {
     font-size: 1em;
     border: none;
     border-radius: 5px;
@@ -76,3 +80,20 @@ header {
     width: 80%;
     border-radius: 50%;
 }
+
+/*---- Section Testimoniaze ----------------------------------------------*/
+#sect-testimoniaze {
+    background-color: #e22d0e;
+    color: white;
+
+}
+
+#sect-testimoniaze h2 {
+    color: white;
+}
+
+
+
+
+
+
