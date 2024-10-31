@@ -65,7 +65,6 @@ header {
 /*---- Section Future -----------------------------------------------*/
 #sect-future {
     padding: 2em 3em 1.5em;
-
 }
 
 #sect-future article {
@@ -85,12 +84,31 @@ header {
 #sect-testimoniaze {
     background-color: #e22d0e;
     color: white;
-
+    padding: 2em 3em 1.5em;
 }
 
 #sect-testimoniaze h2 {
     color: white;
 }
+
+#sect-testimoniaze blockquote {
+    margin-top: 1.5em;
+}
+
+#sect-testimoniaze blockquote cite {
+    display: block;
+    margin-top: 1.5em;
+}
+
+#sect-testimoniaze blockquote cite {
+    font-size: 0.8em;
+}
+
+#sect-testimoniaze blockquote .citator {
+    font-size: 1.3rem;
+}
+
+/*---- Section Preset -----------------------------------------------*/
 
 
 
