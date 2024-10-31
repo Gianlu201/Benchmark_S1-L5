@@ -23,13 +23,17 @@ h2 {
     font-size: 1.8em;
 }
 
+h3 {
+    margin: 0.5em;
+}
+
 button {
     background-color: #f04c2f;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-/*-- HEADER ---------------------------------------------------------*/
+/*-- HEADER -----------------------------------------------------------------------------*/
 header {
     background-color: black;
     padding: 2em;
@@ -39,7 +43,7 @@ header {
     width: 30vw;
 }
 
-/*-- MAIN -----------------------------------------------------------*/
+/*-- MAIN -------------------------------------------------------------------------------*/
 
 /*---- Section Course -----------------------------------------------*/
 #sect-course {
@@ -69,10 +73,6 @@ header {
 
 #sect-future article {
     margin-bottom: 2em;
-}
-
-#sect-future article h3 {
-    margin: 0.5em;
 }
 
 #sect-future article img {
@@ -109,9 +109,37 @@ header {
 }
 
 /*---- Section Preset -----------------------------------------------*/
+#sect-present {
+    padding: 4em 2em 1.5em;
+}
+
+#sect-present article {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-bottom: 2em;
+}
+
+#sect-present article img {
+    width: 100%;
+}
+
+#sect-present article p {
+    margin-bottom: 2em;
+}
+
+/*-- FOOTER -----------------------------------------------------------------------------*/
 
 
 
 
 
 
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* TODO 
+    sostituire caratteri speciali con entities
+
+
+
+
+*/
