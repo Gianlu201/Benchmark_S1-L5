@@ -1,0 +1,209 @@
+/* Your styles here */
+body {
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.5em;
+}
+
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    margin: 0.5em;
+}
+
+button {
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*-- HEADER -----------------------------------------------------------------------------*/
+header {
+    background-color: black;
+    padding: 1.8em;
+    text-align: start;
+}
+
+#logo {
+    width: 10vw;
+    margin-left: 1em;
+}
+
+header a:focus {
+    border: 3px solid red;
+    offset: hidden;
+}
+
+/*-- MAIN -------------------------------------------------------------------------------*/
+
+/*---- Section Course -----------------------------------------------*/
+#sect-course {
+    background-image: url('../img/banner.jpg');
+    background-size: cover;
+    background-position: center top;
+
+    padding: 8em 0;
+}
+
+#sect-course h1 {
+    line-height: 1;
+}
+
+#sect-course p {
+    font-size: 1.1em;
+    margin: 0.5em auto;
+    width: 50%;
+}
+
+#sect-course button {
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8em 2em;
+    margin: 1.5em;
+    color: white;
+}
+
+/*---- Section Future -----------------------------------------------*/
+#sect-future {
+    padding: 6.5em 3em;
+}
+
+#sect-future article {
+    margin-bottom: 2em;
+}
+
+#sect-future > * {
+    display: inline-block;
+}
+
+#sect-future > article {
+    width: 40%;
+}
+
+#sect-future article img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+#sect-future .container {
+    width: 45%;
+}
+
+#sect-future .container article {
+    text-align: start;
+}
+
+#sect-future .container h3 {
+    margin: 0;
+}
+
+#sect-future .container p {
+    width: 80%;
+}
+
+/*---- Section Testimoniaze -----------------------------------------*/
+#sect-testimoniaze {
+    background-color: #e22d0e;
+    color: white;
+    padding: 5em 3em;
+}
+
+#sect-testimoniaze h2 {
+    color: white;
+}
+
+#sect-testimoniaze blockquote {
+    margin-top: 1.5em;
+    font-size: 1.6em;
+}
+
+#sect-testimoniaze blockquote cite {
+    display: block;
+    margin-top: 1.1em;
+}
+
+#sect-testimoniaze blockquote cite {
+    font-size: 0.4em;
+}
+
+#sect-testimoniaze blockquote .citator {
+    font-size: 1.3rem;
+}
+
+/*---- Section Preset -----------------------------------------------*/
+#sect-present {
+    padding: 5em 2em 6em;
+}
+
+#sect-present article {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin-bottom: 2em;
+    display: inline-block;
+    width: 28%;
+    margin: 1em;
+}
+
+#sect-present article img {
+    width: 100%;
+    aspect-ratio: 16/11;
+}
+
+#sect-present article p {
+    padding: 0 1.2em;
+    margin-bottom: 2em;
+}
+
+/*-- FOOTER -----------------------------------------------------------------------------*/
+#footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 2em;
+    font-size: 0.8em;
+}
+
+#footer .container {
+    display: inline-block;
+    text-align: start;
+}
+
+#footer h2 {
+    color: white;
+    margin: 0.5em auto;
+    font-size: 2.5em;
+}
+
+#footer p i {
+    color: white;
+}
+
+#footer a {
+    color: #c8e7f0;
+}
+
+#footer p:last-of-type {
+    border-top: 1px solid #c8e7f0;
+    margin: 1.7em 0 2.5em;
+    padding-top: 1.5em;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+
