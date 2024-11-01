@@ -36,7 +36,7 @@ button {
 /*-- HEADER -----------------------------------------------------------------------------*/
 header {
     background-color: black;
-    padding: 2em;
+    padding: 1.8em;
 }
 
 #logo {
@@ -49,8 +49,13 @@ header {
 #sect-course {
     background-image: url('../img/banner.jpg');
     background-size: cover;
+    background-position: center;
 
     padding: 2em 2em 1.5em;
+}
+
+#sect-course h1 {
+    line-height: 1;
 }
 
 #sect-course p {
@@ -64,11 +69,12 @@ header {
     border-radius: 5px;
     padding: 0.8em 2em;
     margin: 1.5em;
+    color: white;
 }
 
 /*---- Section Future -----------------------------------------------*/
 #sect-future {
-    padding: 2em 3em 1.5em;
+    padding: 3em 3em 1.5em;
 }
 
 #sect-future article {
@@ -84,7 +90,7 @@ header {
 #sect-testimoniaze {
     background-color: #e22d0e;
     color: white;
-    padding: 2em 3em 1.5em;
+    padding: 3.5em 3em 2em;
 }
 
 #sect-testimoniaze h2 {
@@ -110,7 +116,7 @@ header {
 
 /*---- Section Preset -----------------------------------------------*/
 #sect-present {
-    padding: 4em 2em 1.5em;
+    padding: 4em 2em 2em;
 }
 
 #sect-present article {
@@ -124,14 +130,36 @@ header {
 }
 
 #sect-present article p {
+    padding: 0 1.2em;
     margin-bottom: 2em;
 }
 
 /*-- FOOTER -----------------------------------------------------------------------------*/
+#footer {
+    color: #c8e7f0;
+    background-color: #25a2c3;
+    padding: 2em;
+}
 
+#footer h2 {
+    color: white;
+    margin: 0.5em;
+}
 
+#footer p i {
+    color: white;
+}
 
+#footer a {
+    color: #c8e7f0;
+}
 
+#footer p:last-of-type {
+    display: inline-block;
+    border-top: 1px solid #c8e7f0;
+    margin: 1.7em 0 2.5em;
+    padding-top: 1.5em;
+}
 
 
 /* ------------------------------------------------------------------------------------------------------ */
