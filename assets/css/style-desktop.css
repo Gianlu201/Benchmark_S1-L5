@@ -46,8 +46,7 @@ header {
 }
 
 header a:focus {
-    border: 3px solid red;
-    offset: hidden;
+    border: none;
 }
 
 /*-- MAIN -------------------------------------------------------------------------------*/
